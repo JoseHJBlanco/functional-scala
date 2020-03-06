@@ -1,0 +1,556 @@
+[0m[[0m[0mdebug[0m] [0m[0mOther repositories:[0m
+[0m[[0m[0mdebug[0m] [0m[0mDefault repositories:[0m
+[0m[[0m[0mdebug[0m] [0m[0mUsing inline dependencies specified in Scala.[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating [0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 {compile=[default(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/dotty-compiler_0.22/0.22.0-RC1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mResolved  dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of [0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of [0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.pom (0.22.0-RC1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1!dotty-compiler_0.22.pom(pom.original) (364ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/dotty-compiler_0.22/0.22.0-RC1/jars/dotty-compiler_0.22.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/dotty-interfaces/0.22.0-RC1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for ch.epfl.lamp#dotty-interfaces;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for ch.epfl.lamp#dotty-interfaces;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.pom (0.22.0-RC1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#dotty-interfaces;0.22.0-RC1!dotty-interfaces.pom(pom.original) (367ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/dotty-interfaces/0.22.0-RC1/jars/dotty-interfaces.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/dotty-library_0.22/0.22.0-RC1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.pom (0.22.0-RC1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1!dotty-library_0.22.pom(pom.original) (67ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/dotty-library_0.22/0.22.0-RC1/jars/dotty-library_0.22.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.13.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.scala-lang/scala-library/2.13.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#scala-library;2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#scala-library;2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom (2.13.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.13.1!scala-library.pom(pom.original) (63ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.scala-lang/scala-library/2.13.1/jars/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.13.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.13.1] org.scala-lang#scala-library;2.13.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/tasty-core_0.22/0.22.0-RC1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.pom (0.22.0-RC1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1!tasty-core_0.22.pom(pom.original) (71ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/ch.epfl.lamp/tasty-core_0.22/0.22.0-RC1/jars/tasty-core_0.22.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-asm;7.3.1-scala-1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.scala-lang.modules/scala-asm/7.3.1-scala-1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang.modules#scala-asm;7.3.1-scala-1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang.modules#scala-asm;7.3.1-scala-1[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.pom (7.3.1-scala-1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-asm;7.3.1-scala-1!scala-asm.pom(pom.original) (380ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.scala-lang.modules/scala-asm/7.3.1-scala-1/bundles/scala-asm.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-asm;7.3.1-scala-1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;1.2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;1.2.5[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-sbt#compiler-interface;1.2.5 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [compile->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-sbt#util-interface;1.2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-sbt#util-interface;1.2.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-sbt#util-interface;1.2.2 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.jline#jline-reader;3.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-reader/3.9.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.jline#jline-reader;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.jline#jline-reader;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.pom (3.9.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.jline#jline-reader;3.9.0!jline-reader.pom(pom.original) (65ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.jline#jline-parent;3.9.0 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-parent/3.9.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.jline#jline-parent;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.jline#jline-parent;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.pom (3.9.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.jline#jline-parent;3.9.0!jline-parent.pom(pom.original) (68ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-parent/3.9.0/jars/jline-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.sbt/preloaded/org.jline/jline-parent/3.9.0/jars/jline-parent.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried file:////Users/joseblanco/.sbt/preloaded/org/jline/jline-parent/3.9.0/jline-parent-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-reader/3.9.0/jars/jline-reader.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.jline#jline-reader;3.9.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.jline#jline-terminal;3.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-terminal/3.9.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.jline#jline-terminal;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.jline#jline-terminal;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.pom (3.9.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.jline#jline-terminal;3.9.0!jline-terminal.pom(pom.original) (53ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.jline#jline-parent;3.9.0 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.jline#jline-parent;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-terminal/3.9.0/jars/jline-terminal.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.jline#jline-terminal;3.9.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.jline#jline-terminal-jna;3.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-terminal-jna/3.9.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.jline#jline-terminal-jna;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.jline#jline-terminal-jna;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.pom (3.9.0)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.jline#jline-terminal-jna;3.9.0!jline-terminal-jna.pom(pom.original) (56ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.jline#jline-parent;3.9.0 {}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.jline#jline-parent;3.9.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/org.jline/jline-terminal-jna/3.9.0/jars/jline-terminal-jna.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.jline#jline-terminal-jna;3.9.0 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: net.java.dev.jna#jna;4.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/net.java.dev.jna/jna/4.2.2/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for net.java.dev.jna#jna;4.2.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for net.java.dev.jna#jna;4.2.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom (4.2.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] net.java.dev.jna#jna;4.2.2!jna.pom(pom.original) (55ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /Users/joseblanco/.ivy2/local/net.java.dev.jna/jna/4.2.2/jars/jna.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found net.java.dev.jna#jna;4.2.2 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [compile->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [compile->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [compile->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-interfaces;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1->org.scala-lang#scala-library;2.13.1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1->ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-lang.modules#scala-asm;7.3.1-scala-1 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.scala-sbt#compiler-interface;1.2.5 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt#compiler-interface;1.2.5->org.scala-sbt#util-interface;1.2.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-reader;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-reader;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1->org.jline#jline-terminal-jna;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->net.java.dev.jna#jna;4.2.2 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.jline#jline-terminal-jna;3.9.0->org.jline#jline-terminal;3.9.0 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1->ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/joseblanco/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/joseblanco/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/joseblanco/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/joseblanco/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/joseblanco/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.2.5!compiler-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/joseblanco/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (58ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (66ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (49ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/joseblanco/.sbt/boot/scala-2.12.10/org.scala-sbt/sbt/1.3.8/ivy-2.3.0-sbt-88d6a93d15f9b029958c1c289a8859e8dfe31a19.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (66ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (70ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (72ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/joseblanco/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-interfaces/0.22.0-RC1/dotty-interfaces-0.22.0-RC1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#dotty-interfaces;0.22.0-RC1!dotty-interfaces.jar (141ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/7.3.1-scala-1/scala-asm-7.3.1-scala-1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-asm;7.3.1-scala-1!scala-asm.jar(bundle) (171ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/jline/jline-reader/3.9.0/jline-reader-3.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/jline/jline-terminal/3.9.0/jline-terminal-3.9.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.jline#jline-reader;3.9.0!jline-reader.jar (194ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.jline#jline-terminal;3.9.0!jline-terminal.jar (132ms)[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-interface;1.2.2!util-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.9.0/jline-terminal-jna-3.9.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.jline#jline-terminal-jna;3.9.0!jline-terminal-jna.jar (328ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#dotty-library_0.22;0.22.0-RC1!dotty-library_0.22.jar (595ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.2.2/jna-4.2.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] net.java.dev.jna#jna;4.2.2!jna.jar (396ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/tasty-core_0.22/0.22.0-RC1/tasty-core_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#tasty-core_0.22;0.22.0-RC1!tasty-core_0.22.jar (699ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.13.1!scala-library.jar (1031ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-compiler_0.22/0.22.0-RC1/dotty-compiler_0.22-0.22.0-RC1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] ch.epfl.lamp#dotty-compiler_0.22;0.22.0-RC1!dotty-compiler_0.22.jar (1341ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 4798ms :: artifacts dl 1427ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 compile produced in /Users/joseblanco/Courses/FunctionalScala/Week5/scratch/target/scala-0.22/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 runtime produced in /Users/joseblanco/Courses/FunctionalScala/Week5/scratch/target/scala-0.22/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 test produced in /Users/joseblanco/Courses/FunctionalScala/Week5/scratch/target/scala-0.22/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 provided produced in /Users/joseblanco/Courses/FunctionalScala/Week5/scratch/target/scala-0.22/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for org.scala-sbt.temp#temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec;0.22.0-RC1 optional produced in /Users/joseblanco/Courses/FunctionalScala/Week5/scratch/target/scala-0.22/resolution-cache/reports/org.scala-sbt.temp-temp-module-f1e2d8d887ad673030ea9ab452d1f687e2516eec-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (4798ms resolve - 1427ms download)[0m
