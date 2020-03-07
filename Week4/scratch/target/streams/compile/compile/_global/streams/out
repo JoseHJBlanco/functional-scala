@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Unbound Identifier Error: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/src/main/scala/Main.scala:1:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m1 |[0m[33mimport[0m idealized.scala._[0m
+[0m[[0m[31merror[0m] [0m[0m  |       [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |       Not found: idealized[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,392 @@
+INFO  started: Metals version 0.8.1 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat'
+INFO  time: initialize in 1.34s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/metals9343237859516352001/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  skipping build import with status 'Started'
+INFO  [info] Loading global plugins from /Users/josehjblanco/.sbt/1.0/plugins
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala
+INFO  [info] Loading settings for project patmat-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+INFO  [info] Loading project definition from /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/project
+INFO  [info] Updating ProjectRef(uri("file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/project/"), "patmat-build")...
+INFO  [info] downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.0-RC1-69-693de22a/sbt-bloop-1.4.0-RC1-69-693de22a.jar ...
+INFO  [info] 	[SUCCESSFUL ] ch.epfl.scala#sbt-bloop;1.4.0-RC1-69-693de22a!sbt-bloop.jar (3364ms)
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Compiling 2 Scala sources to /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/project/target/scala-2.12/sbt-1.0/classes ...
+INFO  [info] Done compiling.
+ERROR WARNING: An illegal reflective access operation has occurred
+ERROR WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/josehjblanco/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/protobuf-java-3.3.1.jar) to field java.nio.Buffer.address
+ERROR WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+ERROR WARNING: All illegal access operations will be denied in a future release
+INFO  [info] Loading settings for project patmat from assignment.sbt,build.sbt ...
+INFO  [info] Set current project to progfun1-patmat (in build file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/)
+INFO  [success] Generated .bloop/patmat-test.json
+INFO  [success] Generated .bloop/patmat.json
+INFO  [success] Total time: 1 s, completed Mar 1, 2020, 8:59:08 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 34s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher10065169946487597489/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.0-RC1-69-693de22a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/.bloop/patmat-test.json'
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/.bloop/patmat.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.0.
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar
+[0m[32m[D][0m Missing analysis file for project 'patmat'
+[0m[32m[D][0m Missing analysis file for project 'patmat-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher10065169946487597489/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher10065169946487597489/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/josehjblanco/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 5.42s
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: indexed workspace in 2.51s
+INFO  compiling patmat (2 scala sources)
+INFO  compiling patmat-test (1 scala source)
+INFO  time: compiled patmat in 5.25s
+INFO  time: compiled patmat-test in 1.42s
+Mar 01, 2020 9:13:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.84s
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:30:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Leaf
+ required: Int
+    case Leaf(c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:31:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Fork
+ required: Int
+    case Fork(_, _, c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:29:43: stale bloop error: type mismatch;
+ found   : Int => Char
+ required: List[Char]
+> {
+>     case Leaf(c, _) => c
+>     case Fork(_, _, c, _) => c
+>   }
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:30:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Leaf
+ required: Int
+    case Leaf(c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:31:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Fork
+ required: Int
+    case Fork(_, _, c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:29:43: stale bloop error: type mismatch;
+ found   : Int => Char
+ required: List[Char]
+> {
+>     case Leaf(c, _) => c
+>     case Fork(_, _, c, _) => c
+>   }
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:30:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Leaf
+ required: Int
+    case Leaf(c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:31:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Fork
+ required: Int
+    case Fork(_, _, c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:29:43: stale bloop error: type mismatch;
+ found   : Int => Char
+ required: List[Char]
+> {
+>     case Leaf(c, _) => c
+>     case Fork(_, _, c, _) => c
+>   }
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:30:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Leaf
+ required: Int
+    case Leaf(c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:31:10: stale bloop error: constructor cannot be instantiated to expected type;
+ found   : patmat.Fork
+ required: Int
+    case Fork(_, _, c, _) => c
+         ^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:29:43: stale bloop error: type mismatch;
+ found   : Int => Char
+ required: List[Char]
+> {
+>     case Leaf(c, _) => c
+>     case Fork(_, _, c, _) => c
+>   }
+Mar 02, 2020 8:09:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1528
+Mar 02, 2020 8:09:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1540
+Mar 02, 2020 8:09:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1641
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2360, 2360, 2370)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (Char, Int)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2461, 2461, 2472)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (Char, Int)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2461, 2461, 2472)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, <error>)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2593, 2593, 2603)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, <error>)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2593, 2593, 2603)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, <error>)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2593, 2593, 2603)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, 1)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2560, 2560, 2569)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, 1)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2560, 2560, 2569)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2721, 2721, 2735)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2721, 2721, 2730)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2721, 2721, 2731)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2721, 2721, 2731)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2721, 2721, 2731)
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+INFO  started: Metals version 0.8.1 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat'
+INFO  time: initialize in 1.23s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher849452390791284548/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher849452390791284548/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher849452390791284548/bsp.socket...
+INFO  skipping build import with status 'Installed'
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/josehjblanco/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 1.92s
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  time: indexed workspace in 1.8s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.34s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.38s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, <error>)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2493, 2493, 2503)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, <error>)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2493, 2493, 2503)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.33s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.27s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (Char, Int)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2630, 2630, 2641)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, Int)]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2625, 2625, 2642)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, <error>)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2490, 2490, 2500)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.29s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (<error>, 1)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2454, 2454, 2460)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.27s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.19s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 2600, 2600, 2610)
+ERROR code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala' because the SemanticDB file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/.bloop/patmat/bloop-bsp-clients-classes/classes-Metals-OfTIk5WmSXmyIUN_QH8iWg==/META-INF/semanticdb/src/main/scala/patmat/Huffman.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala' because the SemanticDB file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/.bloop/patmat/bloop-bsp-clients-classes/classes-Metals-OfTIk5WmSXmyIUN_QH8iWg==/META-INF/semanticdb/src/main/scala/patmat/Huffman.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.24s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.67s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.2s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.3s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.11s
+Mar 02, 2020 8:49:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 463
+Mar 02, 2020 8:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 527
+Mar 02, 2020 8:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 528
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3496)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3498)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3493)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3494)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3493)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3491)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3498)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3491)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3493)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3492)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3482, 3482, 3491)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (Char, <error>)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3487, 3487, 3503)
+Mar 02, 2020 8:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1316
+Mar 02, 2020 8:58:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1345
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.35s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.3s
+Mar 02, 2020 9:05:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1761
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in (Char, Int)RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 3461, 3461, 3472)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.19s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.19s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.25s
+Mar 02, 2020 9:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2025
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.27s
+Mar 02, 2020 9:23:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2418
+Mar 02, 2020 9:23:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2475
+Mar 02, 2020 9:25:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2762
+Mar 02, 2020 9:30:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3144
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 97ms
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.2s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.15s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.14s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 6108, 6108, 6118)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 6096, 6096, 6105)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.18s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 86ms
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 75ms
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+INFO  started: Metals version 0.8.1 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat'
+INFO  time: initialize in 1.63s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher14107310398986511448/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher14107310398986511448/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher14107310398986511448/bsp.socket...
+INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/josehjblanco/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.57s
+INFO  Connected to Build server v1.4.0-RC1-69-693de22a
+INFO  compiling patmat (1 scala source)
+Mar 02, 2020 10:56:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+INFO  time: compiled patmat in 1.69s
+INFO  time: indexed workspace in 4.59s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 84ms
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.13s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.41s
+ERROR code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala' because the SemanticDB file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/.bloop/patmat/bloop-bsp-clients-classes/classes-Metals-7_GbMLltQiu1FhemdQduow==/META-INF/semanticdb/src/main/scala/patmat/Huffman.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala' because the SemanticDB file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/.bloop/patmat/bloop-bsp-clients-classes/classes-Metals-7_GbMLltQiu1FhemdQduow==/META-INF/semanticdb/src/main/scala/patmat/Huffman.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.31s
+Mar 02, 2020 10:59:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+Mar 02, 2020 10:59:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+Mar 02, 2020 10:59:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.3s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 6290, 6290, 6299)
+Mar 02, 2020 11:01:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 329
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.25s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.36s
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.25s
+Mar 02, 2020 11:02:05 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.5s
+Mar 02, 2020 11:03:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 593
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9027, 9027, 9041)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9027, 9027, 9034)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9027, 9027, 9036)
+Mar 02, 2020 11:07:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 911
+Mar 02, 2020 11:10:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1201
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9254, 9254, 9268)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9254, 9254, 9264)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9254, 9254, 9264)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9254, 9254, 9264)
+Mar 02, 2020 11:11:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1328
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 0.21s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9254, 9254, 9264)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9267, 9267, 9281)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9267, 9267, 9274)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9267, 9267, 9275)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 9267, 9267, 9276)
+INFO  compiling patmat (1 scala source)
+INFO  time: compiled patmat in 1.71s
+Mar 05, 2020 8:59:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1674
+Mar 05, 2020 9:34:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3481
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 10654, 10654, 10664)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 10395, 10395, 10409)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 10395, 10395, 10402)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 10395, 10395, 10403)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 10395, 10395, 10404)
+Mar 05, 2020 9:45:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3862
+Mar 05, 2020 9:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4768
+Mar 05, 2020 10:09:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 05, 2020 10:09:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:418)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:965)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:813)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12051, 12051, 12065)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12051, 12051, 12058)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12051, 12051, 12060)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12051, 12051, 12061)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12051, 12051, 12061)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12051, 12051, 12061)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12051, 12051, 12061)
+Mar 05, 2020 10:13:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5557
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.CodeTree]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 5290, 5290, 5304)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12069, 12069, 12079)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12067, 12067, 12077)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12067, 12067, 12077)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12080, 12080, 12094)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12080, 12080, 12087)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12080, 12080, 12088)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12080, 12080, 12089)

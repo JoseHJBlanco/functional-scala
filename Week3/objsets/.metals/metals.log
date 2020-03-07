@@ -1,0 +1,160 @@
+INFO  started: Metals version 0.8.0 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets'
+INFO  time: initialize in 1.46s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/metals7901950746080416374/sbt-launch.jar set bloopExportJarClassifiers in Global := Some(Set("sources")) bloopInstall'
+INFO  skipping build import with status 'Started'
+INFO  [info] Loading global plugins from /Users/josehjblanco/.sbt/1.0/plugins
+INFO  [info] Loading settings for project objsets-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+INFO  [info] Loading project definition from /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/project
+INFO  [info] Updating ProjectRef(uri("file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/project/"), "objsets-build")...
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetData.scala
+Feb 10, 2020 9:15:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Feb 10, 2020 9:15:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Feb 10, 2020 9:15:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Compiling 2 Scala sources to /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/project/target/scala-2.12/sbt-1.0/classes ...
+INFO  [info] Done compiling.
+ERROR WARNING: An illegal reflective access operation has occurred
+ERROR WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/josehjblanco/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/protobuf-java-3.3.1.jar) to field java.nio.Buffer.address
+ERROR WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+ERROR WARNING: All illegal access operations will be denied in a future release
+INFO  [info] Loading settings for project objsets from assignment.sbt,build.sbt ...
+INFO  [info] Set current project to progfun1-objsets (in build file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/)
+INFO  [info] Defining Global / bloopExportJarClassifiers
+INFO  [info] The new value will be used by ThisBuild / bloopExportJarClassifiers
+INFO  [info] Reapplying settings...
+INFO  [info] Set current project to progfun1-objsets (in build file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/)
+INFO  [success] Generated .bloop/objsets.json
+INFO  [success] Generated .bloop/objsets-test.json
+INFO  [success] Total time: 1 s, completed Feb 10, 2020, 9:15:37 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 27s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher17509982135187697801/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/.bloop/objsets.json'
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/.bloop/objsets-test.json'
+[0m[32m[D][0m Missing analysis file for project 'objsets'
+[0m[32m[D][0m Missing analysis file for project 'objsets-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher17509982135187697801/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher17509982135187697801/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/josehjblanco/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.51s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 2.69s
+INFO  compiling objsets (4 scala sources)
+INFO  time: compiled objsets in 2.79s
+INFO  compiling objsets-test (1 scala source)
+INFO  time: compiled objsets-test in 0.42s
+Feb 10, 2020 9:39:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 304
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 1.05s
+INFO  compiling objsets (2 scala sources)
+INFO  time: compiled objsets in 0.55s
+Feb 10, 2020 9:45:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 557
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 1.04s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.77s
+Feb 10, 2020 9:51:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 816
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.81s
+Feb 10, 2020 9:52:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 888
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.75s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.67s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 1.1s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 79ms
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 61ms
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 35ms
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.13s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.84s
+Feb 10, 2020 9:58:41 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: objsets/TweetSet#filter().(p)
+illegal cyclic reference involving class TweetSet
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 1.65s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.94s
+Feb 10, 2020 10:05:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1398
+Feb 10, 2020 10:23:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1895
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.99s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.68s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.68s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.19s
+Feb 10, 2020 10:24:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1982
+Feb 10, 2020 10:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1993
+Feb 10, 2020 10:35:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2306
+INFO  compiling objsets (1 scala source)
+INFO  Deduplicating compilation of objsets from bsp client 'Metals 0.8.0' (since 1h 33m 36.536s)
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.89s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 57ms
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 71ms
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.13s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.13s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.17s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.33s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.26s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 1.18s
+INFO  compiling objsets (2 scala sources)
+INFO  time: compiled objsets in 0.56s
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6366)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6359)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6366)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6359)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6360)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6362)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[String]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6364)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[String]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6364)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[String]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6364)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala in List[String]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/objsets/src/main/scala/objsets/TweetSet.scala, 6352, 6352, 6364)
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 0.24s
+INFO  compiling objsets (1 scala source)
+INFO  time: compiled objsets in 1.02s
+Feb 10, 2020 11:53:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4795
+Feb 11, 2020 12:10:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5359
+Feb 11, 2020 12:10:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5371
+Feb 11, 2020 12:10:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5460
+No more data in the client stdin, exiting...

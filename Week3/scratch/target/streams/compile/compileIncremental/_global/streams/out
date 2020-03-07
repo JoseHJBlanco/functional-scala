@@ -1,0 +1,49 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/scratch/src/main/scala/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/scratch/src/main/scala/Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/scratch/target/scala-0.22/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-sbt-bridge/0.22.0-RC1/dotty-sbt-bridge-0.22.0-RC1.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-sbt-bridge/0.22.0-RC1/dotty-sbt-bridge-0.22.0-RC1.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Dotty compiler with arguments  (CompilerInterface):[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week3/scratch/target/scala-0.22/classes:/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.22/0.22.0-RC1/dotty-library_0.22-0.22.0-RC1.jar:/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.648342721 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Main...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Main,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName($asInstanceOf$,[Default]), UsedName(Main,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName(<init>,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(msg,[Default]), UsedName(wait,[Default]), UsedName(toString,[Default]), UsedName(hashCode,[Default]), UsedName($isInstanceOf$,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]))) invalidates 1 classes due to The Main has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName($asInstanceOf$,[Default]), UsedName(Main,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName(<init>,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(msg,[Default]), UsedName(wait,[Default]), UsedName(toString,[Default]), UsedName(hashCode,[Default]), UsedName($isInstanceOf$,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from week3.Hello...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: week3.Hello[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(week3.Hello)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(week3.Hello,ModifiedNames(changes = UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName($asInstanceOf$,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName(<init>,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(wait,[Default]), UsedName(toString,[Default]), UsedName(hashCode,[Default]), UsedName($isInstanceOf$,[Default]), UsedName(Hello,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]))) invalidates 1 classes due to The week3.Hello has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]), UsedName(asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName($asInstanceOf$,[Default]), UsedName(eq,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]), UsedName(<init>,[Default]), UsedName(!=,[Default]), UsedName(notify,[Default]), UsedName(synchronized,[Default]), UsedName(wait,[Default]), UsedName(toString,[Default]), UsedName(hashCode,[Default]), UsedName($isInstanceOf$,[Default]), UsedName(Hello,[Default]), UsedName(getClass,[Default]), UsedName(##,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(week3.Hello)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

@@ -1,0 +1,153 @@
+{
+    "version": "1.1.2",
+    "project": {
+        "name": "root",
+        "directory": "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot",
+        "workspaceDir": "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot",
+        "sources": [
+            "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/src/main/scala-0.21",
+            "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/src/main/scala",
+            "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/src/main/java",
+            "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/target/scala-0.21/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.21/0.21.0-RC1/dotty-library_0.21-0.21.0-RC1.jar",
+            "/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+        ],
+        "out": "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/.bloop/root",
+        "classesDir": "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/.bloop/root/scala-0.21/classes",
+        "resources": [
+            "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/src/main/resources",
+            "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/target/scala-0.21/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "ch.epfl.lamp",
+            "name": "scala-compiler",
+            "version": "0.21.0-RC1",
+            "options": [
+                "-bootclasspath",
+                "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/classes"
+            ],
+            "jars": [
+                "/Users/josehjblanco/.ivy2/cache/ch.epfl.lamp/dotty-compiler_0.21/jars/dotty-compiler_0.21-0.21.0-RC1.jar",
+                "/Users/josehjblanco/.ivy2/cache/ch.epfl.lamp/dotty-interfaces/jars/dotty-interfaces-0.21.0-RC1.jar",
+                "/Users/josehjblanco/.ivy2/cache/ch.epfl.lamp/dotty-library_0.21/jars/dotty-library_0.21-0.21.0-RC1.jar",
+                "/Users/josehjblanco/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.1.jar",
+                "/Users/josehjblanco/.ivy2/cache/ch.epfl.lamp/tasty-core_0.21/jars/tasty-core_0.21-0.21.0-RC1.jar",
+                "/Users/josehjblanco/.ivy2/cache/org.scala-lang.modules/scala-asm/bundles/scala-asm-7.0.0-scala-1.jar",
+                "/Users/josehjblanco/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-1.2.5.jar",
+                "/Users/josehjblanco/.ivy2/cache/org.scala-sbt/util-interface/jars/util-interface-1.2.2.jar",
+                "/Users/josehjblanco/.ivy2/cache/org.jline/jline-reader/jars/jline-reader-3.9.0.jar",
+                "/Users/josehjblanco/.ivy2/cache/org.jline/jline-terminal/jars/jline-terminal-3.9.0.jar",
+                "/Users/josehjblanco/.ivy2/cache/org.jline/jline-terminal-jna/jars/jline-terminal-jna-3.9.0.jar",
+                "/Users/josehjblanco/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.2.2.jar"
+            ],
+            "analysis": "/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/newtonssquareroot/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_0.21.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.epfl.lamp",
+                    "name": "dotty-library_0.21",
+                    "version": "0.21.0-RC1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "dotty-library_0.21",
+                            "path": "/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.21/0.21.0-RC1/dotty-library_0.21-0.21.0-RC1.jar"
+                        },
+                        {
+                            "name": "dotty-library_0.21",
+                            "classifier": "sources",
+                            "path": "/Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.21/0.21.0-RC1/dotty-library_0.21-0.21.0-RC1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

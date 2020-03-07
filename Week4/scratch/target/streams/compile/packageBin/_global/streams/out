@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/dotty-cross_0.22-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/False.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/False.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/False.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/False.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/False$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/False$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/Boolean.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/Boolean.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/True.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/True.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/True$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/True$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/True.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/True.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	idealized/scala/Boolean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/idealized/scala/Boolean.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/scratch/target/scala-0.22/classes/main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

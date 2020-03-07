@@ -1,0 +1,158 @@
+INFO  started: Metals version 0.8.0 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets'
+INFO  time: initialize in 1.93s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/metals14376580097760993916/sbt-launch.jar set bloopExportJarClassifiers in Global := Some(Set("sources")) bloopInstall'
+INFO  skipping build import with status 'Started'
+INFO  [info] Loading global plugins from /Users/josehjblanco/.sbt/1.0/plugins
+INFO  [info] Loading settings for project funsets-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+INFO  [info] Loading project definition from /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/project
+INFO  [info] Updating ProjectRef(uri("file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/project/"), "funsets-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Compiling 2 Scala sources to /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/project/target/scala-2.12/sbt-1.0/classes ...
+INFO  [info] Done compiling.
+ERROR WARNING: An illegal reflective access operation has occurred
+ERROR WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/Users/josehjblanco/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/protobuf-java-3.3.1.jar) to field java.nio.Buffer.address
+ERROR WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+ERROR WARNING: All illegal access operations will be denied in a future release
+INFO  [info] Loading settings for project funsets from assignment.sbt,build.sbt ...
+INFO  [info] Set current project to progfun1-funsets (in build file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/)
+INFO  [info] Defining Global / bloopExportJarClassifiers
+INFO  [info] The new value will be used by ThisBuild / bloopExportJarClassifiers
+INFO  [info] Reapplying settings...
+INFO  [info] Set current project to progfun1-funsets (in build file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/)
+INFO  [success] Generated .bloop/funsets-test.json
+INFO  [success] Generated .bloop/funsets.json
+INFO  [success] Total time: 1 s, completed Feb 5, 2020, 8:38:26 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 25s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher15748256317009646298/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/.bloop/funsets.json'
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/.bloop/funsets-test.json'
+[0m[32m[D][0m Missing analysis file for project 'funsets-test'
+[0m[32m[D][0m Missing analysis file for project 'funsets'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher15748256317009646298/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher15748256317009646298/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/josehjblanco/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.33s
+INFO  Connected to Build server v1.4.0-RC1
+INFO  time: indexed workspace in 2.85s
+INFO  compiling funsets (3 scala sources)
+INFO  time: compiled funsets in 25s
+Feb 06, 2020 9:39:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Feb 06, 2020 9:39:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Feb 06, 2020 9:39:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Feb 06, 2020 9:52:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 515
+Feb 06, 2020 9:53:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 599
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 1.08s
+Feb 06, 2020 10:06:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 814
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 0.23s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 1.08s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 1.58s
+Feb 06, 2020 10:31:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1814
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 0.23s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 1.5s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 0.17s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 0.21s
+Feb 06, 2020 10:37:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2435
+Feb 06, 2020 10:37:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2437
+Feb 06, 2020 10:37:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2434
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:87:15: stale bloop error: Unit does not take parameters
+      val s = intersect(union(s1, s2), s2)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:96:15: stale bloop error: Unit does not take parameters
+      val s = filter(union(s1, s2, s3), x => x < 2)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:105:29: stale bloop error: too many arguments (3) for method union: (s: funsets.FunSets.FunSet, t: funsets.FunSets.FunSet)funsets.FunSets.FunSet
+      val s = union(s1, s2, s3)
+                            ^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:113:29: stale bloop error: too many arguments (3) for method union: (s: funsets.FunSets.FunSet, t: funsets.FunSets.FunSet)funsets.FunSets.FunSet
+      val s = union(s1, s2, s3)
+                            ^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:114:14: stale bloop error: Unit does not take parameters
+      assert(exists(s, x => x % 2 == 0), "Exists 1")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:115:15: stale bloop error: Unit does not take parameters
+      assert(!exists(s, x => x < 0), "Exists 2")
+              ^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:116:14: stale bloop error: Unit does not take parameters
+      assert(exists(s, x => x < 2), "Exists 3")
+             ^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:87:15: stale bloop error: Unit does not take parameters
+      val s = intersect(union(s1, s2), s2)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:96:15: stale bloop error: Unit does not take parameters
+      val s = filter(union(s1, s2, s3), x => x < 2)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:105:29: stale bloop error: too many arguments (3) for method union: (s: funsets.FunSets.FunSet, t: funsets.FunSets.FunSet)funsets.FunSets.FunSet
+      val s = union(s1, s2, s3)
+                            ^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:113:29: stale bloop error: too many arguments (3) for method union: (s: funsets.FunSets.FunSet, t: funsets.FunSets.FunSet)funsets.FunSets.FunSet
+      val s = union(s1, s2, s3)
+                            ^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:114:14: stale bloop error: Unit does not take parameters
+      assert(exists(s, x => x % 2 == 0), "Exists 1")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:115:15: stale bloop error: Unit does not take parameters
+      assert(!exists(s, x => x < 0), "Exists 2")
+              ^^^^^^^^^^^^^^^^^^^^^
+INFO  /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week2/funsets/src/test/scala/funsets/FunSetSuite.scala:116:14: stale bloop error: Unit does not take parameters
+      assert(exists(s, x => x < 2), "Exists 3")
+             ^^^^^^^^^^^^^^^^^^^^^
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 0.17s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 0.17s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 0.17s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 0.13s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 1.03s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 1.04s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 0.12s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 58ms
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 1.51s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 1.69s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 1.15s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 1.34s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 1.13s
+INFO  compiling funsets (1 scala source)
+INFO  time: compiled funsets in 0.95s
+INFO  compiling funsets-test (1 scala source)
+INFO  time: compiled funsets-test in 1.11s
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

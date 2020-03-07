@@ -1,0 +1,17 @@
+INFO  time: initialize in 0.39s
+WARN  no build tool detected in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  time: initialize in 0.95s
+WARN  no build tool detected in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld/scala-seed-project/src/main/scala/example/Hello.scala
+WARN  no build target: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld/scala-seed-project/project/Dependencies.scala
+WARN  no build target: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld/scala-seed-project/build.sbt
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.0 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld'
+INFO  time: initialize in 0.47s
+WARN  resetting database: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld/.metals/metals.h2.db
+WARN  no build tool detected in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.0 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld'
+INFO  time: initialize in 0.39s
+WARN  no build tool detected in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/HelloWorld'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals

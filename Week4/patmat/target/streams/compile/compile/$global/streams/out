@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:318:37: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[Huffman.this.Bit][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: Huffman.this.Bit[0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  Int[0m
+[0m[[0m[31merror[0m] [0m[0m    def encode: List[Bit] = codeBits(convert(tree)) _[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala:321:45: recursive method iterate needs result type[0m
+[0m[[0m[31merror[0m] [0m[0m      case char :: next => encode(char) ::: iterate(next)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

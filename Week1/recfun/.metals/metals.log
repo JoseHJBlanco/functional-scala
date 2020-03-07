@@ -1,0 +1,158 @@
+INFO  started: Metals version 0.8.0 in workspace '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun'
+INFO  time: initialize in 0.42s
+INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/metals7685428922560059909/sbt-launch.jar set bloopExportJarClassifiers in Global := Some(Set("sources")) bloopInstall'
+INFO  skipping build import with status 'Started'
+INFO  [info] Loading global plugins from /Users/josehjblanco/.sbt/1.0/plugins
+INFO  [info] Loading settings for project recfun-build from plugins.sbt,metals.sbt,buildSettings.sbt ...
+INFO  [info] Loading project definition from /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/project
+INFO  [info] Updating ProjectRef(uri("file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/project/"), "recfun-build")...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar ...
+INFO  [info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar (121ms)
+INFO  [info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.7!gson.jar (163ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.0-RC1/sbt-bloop-1.4.0-RC1.jar ...
+INFO  [info] 	[SUCCESSFUL ] ch.epfl.scala#sbt-bloop;1.4.0-RC1!sbt-bloop.jar (7348ms)
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Compiling 2 Scala sources to /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/project/target/scala-2.12/sbt-1.0/classes ...
+INFO  [info] Done compiling.
+INFO  [info] Loading settings for project recfun from assignment.sbt,build.sbt ...
+INFO  [info] Set current project to progfun1-recfun (in build file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/)
+INFO  [info] Defining Global / bloopExportJarClassifiers
+INFO  [info] The new value will be used by ThisBuild / bloopExportJarClassifiers
+INFO  [info] Reapplying settings...
+INFO  [info] Set current project to progfun1-recfun (in build file:/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/)
+INFO  [success] Generated .bloop/recfun.json
+INFO  [success] Generated .bloop/recfun-test.json
+INFO  [success] Total time: 1 s, completed Feb 1, 2020 8:12:19 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 39s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher2744746899426630604/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/.bloop/recfun-test.json'
+[0m[32m[D][0m Loading project from '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/.bloop/recfun.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.0.
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar
+[0m[32m[D][0m   => /Users/josehjblanco/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher2744746899426630604/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/9x/y3xh2phj4mx2pgg9zxxhdv4w0000gn/T/bsp-launcher2744746899426630604/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/josehjblanco/Library/Caches/org.scalameta.metals/bsp.trace.json
+ERROR Timeout waiting for 'build/initialize' response
+ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:259)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:203)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+Feb 01, 2020 8:13:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+Feb 01, 2020 8:15:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Feb 01, 2020 8:15:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:22)
+
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 686)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 679)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 680)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 679)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 686)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 679)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 681)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 682)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 682)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 672, 672, 682)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 620, 620, 630)
+Feb 01, 2020 8:28:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 762
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 790, 790, 800)
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Char]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 665, 665, 675)
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 1202, 1202, 1216)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 1202, 1202, 1209)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 1202, 1202, 1210)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Int]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 1202, 1202, 1211)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Int]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 1202, 1202, 1211)
+something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala in List[Int]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala, 1202, 1202, 1211)
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+WARN  no build target for: /Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week1/recfun/src/main/scala/recfun/RecFun.scala
+INFO  shutting down Metals
