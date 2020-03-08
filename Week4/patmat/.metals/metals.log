@@ -390,3 +390,5 @@ something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/Fu
 something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12080, 12080, 12087)
 something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12080, 12080, 12088)
 something's wrong: no file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala in List[Huffman.this.Bit]RangePosition(file:///Users/josehjblanco/DataScience/Courses/Coursera/FunctionalScala/Week4/patmat/src/main/scala/patmat/Huffman.scala, 12080, 12080, 12089)
+INFO  shutting down Metals
+No more data in the client stdin, exiting...

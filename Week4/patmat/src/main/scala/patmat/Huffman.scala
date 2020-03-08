@@ -194,7 +194,7 @@ trait Huffman extends HuffmanInterface {
       case Nil => Nil
       case head :: tail => getTree(head, node) match {
           case l: Leaf => l.char :: decode(tree, tail)
-          case f: Fork => decode(f, tail)
+          case f: Fork => iterator(f, tail)
       }
     }
 
