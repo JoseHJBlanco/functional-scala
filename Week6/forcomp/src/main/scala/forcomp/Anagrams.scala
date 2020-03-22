@@ -1,5 +1,7 @@
 package forcomp
 
+import scala.annotation.compileTimeOnly
+
 object Anagrams extends AnagramsInterface {
 
   /** A word is simply a `String`. */
@@ -172,28 +174,23 @@ object Anagrams extends AnagramsInterface {
     }
 
     def iterateSubSets(
-        subSets: List[Occurrences],
         occursLeft: Occurrences
     ): List[Sentence] =
-      (subSets, occursLeft) match {
-        case (_, Nil) => Nil
-        case (Nil, _) => Nil
-        case (head :: tail, _) => {
-          (head match {
-            case Nil => Nil
-            case _ =>
-              for {
-                rest <- iterateSubSets(subSets, subtract(occursLeft, head))
-                word <- occurToWords(head)
-                if head != Nil
-              } yield word :: rest
-          }) ::: iterateSubSets(tail, occursLeft)
+      occursLeft match {
+        case Nil => List(Nil)
+        case o => {
+          val subSets = combinations(occursLeft)
+          for {
+            subSet <- subSets
+            word <- occurToWords(subSet)
+            rest <- iterateSubSets(subtract(occursLeft, subSet))
+            if subSet != Nil
+          } yield (word :: rest).sorted
         }
       }
 
     val sentOccurs = sentenceOccurrences(sentence)
-    val subSets = combinations(sentOccurs)
-    iterateSubSets(subSets, sentOccurs)
+    iterateSubSets(sentOccurs).toSet.toList
   }
 }
 

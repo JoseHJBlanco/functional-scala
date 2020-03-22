@@ -345,3 +345,38 @@ java.lang.StringIndexOutOfBoundsException: offset 6971, count -9, length 7827
 
 WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
 WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:218: error: } expected but end of file found
+
+^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+something's wrong: no file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[<error>]RangePosition(file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 6627, 6627, 6641)
+something's wrong: no file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[<error>]RangePosition(file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 6627, 6627, 6634)
+something's wrong: no file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[forcomp.Anagrams.Occurrences]RangePosition(file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 6627, 6627, 6644)
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:217: error: } expected but end of file found
+
+^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
