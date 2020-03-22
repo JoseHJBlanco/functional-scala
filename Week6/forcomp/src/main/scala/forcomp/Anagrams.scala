@@ -181,16 +181,15 @@ object Anagrams extends AnagramsInterface {
         case o => {
           val subSets = combinations(occursLeft)
           for {
-            subSet <- subSets
-            word <- occurToWords(subSet)
+            subSet <- subSets.filter(x => x != Nil)
             rest <- iterateSubSets(subtract(occursLeft, subSet))
-            if subSet != Nil
-          } yield (word :: rest).sorted
+            word <- occurToWords(subSet)
+          } yield word :: rest
         }
       }
 
     val sentOccurs = sentenceOccurrences(sentence)
-    iterateSubSets(sentOccurs).toSet.toList
+    iterateSubSets(sentOccurs)
   }
 }
 

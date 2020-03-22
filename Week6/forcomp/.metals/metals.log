@@ -380,3 +380,18 @@ WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Cour
 WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
 WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
 WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:185: error: ) expected but ; found
+            subSet <- subSets.filter(x != Ni;)
+                                            ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
