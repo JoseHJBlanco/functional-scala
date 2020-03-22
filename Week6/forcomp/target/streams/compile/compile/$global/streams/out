@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:181:54: too many arguments (2) for method iterateSubSets: (occursLeft: forcomp.Anagrams.Occurrences)List[forcomp.Anagrams.Sentence][0m
+[0m[[0m[31merror[0m] [0m[0m            case Nil :: tail => iterateSubSets(tail, occursLeft)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:184:57: too many arguments (2) for method iterateSubSets: (occursLeft: forcomp.Anagrams.Occurrences)List[forcomp.Anagrams.Sentence][0m
+[0m[[0m[31merror[0m] [0m[0m                rest <- iterateSubSets(subSets, subtract(occursLeft, head))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:186:62: too many arguments (2) for method iterateSubSets: (occursLeft: forcomp.Anagrams.Occurrences)List[forcomp.Anagrams.Sentence][0m
+[0m[[0m[31merror[0m] [0m[0m              } yield word :: rest) ::: iterateSubSets(tail, occursLeft)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:194:29: too many arguments (2) for method iterateSubSets: (occursLeft: forcomp.Anagrams.Occurrences)List[forcomp.Anagrams.Sentence][0m
+[0m[[0m[31merror[0m] [0m[0m    iterateSubSets(subSets, sentOccurs)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

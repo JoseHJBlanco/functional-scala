@@ -1,0 +1,347 @@
+INFO  started: Metals version 0.8.1 in workspace '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp'
+INFO  time: initialize in 1.78s
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+Mar 15, 2020 8:55:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+Mar 15, 2020 8:57:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 15, 2020 9:23:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp'
+INFO  time: initialize in 1.99s
+INFO  skipping build import with status 'Requested'
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.1 in workspace '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp'
+INFO  time: initialize in 1.39s
+INFO  skipping build import with status 'Requested'
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+Mar 21, 2020 5:27:27 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 201, count -1, length 2889
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+Mar 21, 2020 5:31:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+Mar 21, 2020 5:43:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+Mar 21, 2020 6:11:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 672
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+Mar 21, 2020 6:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 896
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.3 in workspace '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp'
+INFO  time: initialize in 1.7s
+INFO  skipping build import with status 'Requested'
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+INFO  no build target: using presentation compiler with only scala-library
+Mar 21, 2020 6:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Mar 21, 2020 6:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Mar 21, 2020 6:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Mar 21, 2020 6:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:91: error: illegal start of simple expression
+      otherOccurs ::: for {
+                      ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+Mar 21, 2020 6:56:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 889
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:112: error: illegal start of simple expression
+    def subtractCounts(oldOccurs: Map[Char, Int], subOccur: (Char, Int)) =
+    ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:113: error: illegal start of simple expression
+      val char, occur = subOccur
+      ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+Mar 21, 2020 7:08:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 21, 2020 7:08:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 21, 2020 7:08:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 21, 2020 7:08:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 21, 2020 7:08:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Mar 21, 2020 7:08:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:189: error: } expected but end of file found
+
+^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/test/scala/forcomp/AnagramsSuite.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+Mar 22, 2020 3:44:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3461
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+something's wrong: no file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala in List[forcomp.Anagrams.Occurrences]RangePosition(file:///Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala, 6545, 6545, 6562)
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+Mar 22, 2020 4:47:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 6886, count -9, length 7507
+java.lang.StringIndexOutOfBoundsException: offset 6886, count -9, length 7507
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:265)
+	at scala.reflect.internal.Trees.$anonfun$itraverse$3(Trees.scala:1367)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1367)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1238)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:335)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:312)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:912)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:911)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:312)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:311)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:912)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:911)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:311)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:176: error: => expected but , found
+        case _, Nil => Nil
+              ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:178: error: => expected but , found
+        case head :: tail, _ => {
+                         ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:182: error: illegal start of statement
+        case (head :: tail, _) => match head {
+                                  ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:189: error: ; expected but ) found
+              } yield word :: rest) ::: iterateSubSets(tail, occursLeft)
+                                  ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:189: error: ; expected but ) found
+              } yield word :: rest) ::: iterateSubSets(tail, occursLeft)
+                                  ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:190: error: ; expected but identifier found
+          }  ::: iterateSubSets(tail, occursLeft)
+             ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+ERROR scalafmt: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala:190: error: ; expected but identifier found
+          }  ::: iterateSubSets(tail, occursLeft)}
+             ^
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+Mar 22, 2020 5:10:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5304
+Mar 22, 2020 5:11:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5447
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala' because it doesn't belong to a build target.
+Mar 22, 2020 5:14:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 6971, count -9, length 7827
+java.lang.StringIndexOutOfBoundsException: offset 6971, count -9, length 7827
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:265)
+	at scala.reflect.internal.Trees.$anonfun$itraverse$3(Trees.scala:1367)
+	at scala.reflect.api.Trees$Traverser.atOwner(Trees.scala:2515)
+	at scala.reflect.internal.Trees.itraverse(Trees.scala:1367)
+	at scala.reflect.internal.Trees.itraverse$(Trees.scala:1238)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.internal.SymbolTable.itraverse(SymbolTable.scala:28)
+	at scala.reflect.api.Trees$Traverser.traverse(Trees.scala:2483)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:335)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:312)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:912)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:911)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:312)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:311)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:912)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:911)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:311)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
+WARN  no build target for: /Users/joseblanco/Courses/Coursera/FunctionalScala/Week6/forcomp/src/main/scala/forcomp/Anagrams.scala
