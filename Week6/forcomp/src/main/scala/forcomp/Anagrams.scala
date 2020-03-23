@@ -191,6 +191,44 @@ object Anagrams extends AnagramsInterface {
     val sentOccurs = sentenceOccurrences(sentence)
     iterateSubSets(sentOccurs)
   }
+
+  def blah(sentence: Sentence): Any = {
+
+    def occurToWords(occurs: Occurrences): List[Word] = {
+      dictionaryByOccurrences.get(occurs) match {
+        case Some(words) => words
+        case None        => Nil
+      }
+    }
+
+    def iterateSubSets(
+        occursLeft: Occurrences
+    ): List[List[Occurrences]] = {
+      if (occursLeft.isEmpty) List(Nil)
+      else {
+        val subSets = combinations(occursLeft).filter(x =>
+          dictionaryByOccurrences.contains(x)
+        )
+        for {
+          subSet <- subSets
+          rest <- iterateSubSets(subtract(occursLeft, subSet))
+        } yield subSet :: rest
+      }
+    }
+
+    def occursToSetences(ocl: List[Occurrences]): List[Sentence] = ocl match {
+      case Nil       => List(Nil)
+      case Nil :: tl => List(Nil)
+      case head :: tl =>
+        for {
+          rest <- occursToSetences(tl)
+          word <- occurToWords(head)
+        } yield word :: rest
+    }
+
+    val sentOccurs = sentenceOccurrences(sentence)
+    iterateSubSets(sentOccurs) //.flatMap(occursToSetences)
+  }
 }
 
 object Dictionary {
